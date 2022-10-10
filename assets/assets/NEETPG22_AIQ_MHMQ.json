@@ -1,0 +1,485 @@
+{
+    "id": "#NeetPG_2022",
+    "type": "navigable",
+    "steps": [
+        {
+            "stepIdentifier": {
+                "id": "#START"
+            },
+            "type": "intro",
+            "title": "Welcome to SEATSMART NEET PG 2022 MHMQ Questionnaire",
+            "text": "Get ready for a set of questions!",
+            "buttonText": "Let's go!"
+        },
+      {
+            "stepIdentifier": {
+                "id": "#HP1"
+            },
+            "type": "question",
+            "title": "Counselling(s)",
+            "text": "Select the Different Counselling(s) you plan to attend",
+            "answerFormat": {
+                "type": "multiple",
+                "textChoices": [
+                    {
+                        "text": "All India Quota – Government",
+                        "value": "A"
+                    },
+                    {
+                        "text": "All India Quota – Deemed",
+                        "value": "B"
+                    },
+                    {
+                        "text": "Telangana State Quota – Convenor",
+                        "value": "C"
+                    },
+                    {
+                        "text": "Telangana State Quota - Management",
+                        "value": "D"
+                    },
+                  {
+                        "text": "Andhra Pradesh State Quota - Convenor",
+                        "value": "E"
+                    },
+                   {
+                        "text": "Andhra Pradesh State Quota - Management",
+                        "value": "F"
+                    }
+                ]
+            }
+        },
+
+      {
+        "stepIdentifier":
+        {
+          "id": "#DF1"
+        },
+        "type": "question",
+            "title": "Domicile, Fees",
+            "text": " Please check the eligibility criteria, domicile requirements, application fees, deposit, etc., based on your selection",
+         "answerFormat": {
+                "type": "multiple",
+                "textChoices": [
+                    {
+                        "text": "All India Quota - Government\n Eligibility: All qualified, Application fees: 3000, Deposit: 25,000",
+                        "value": "A"
+                    },
+                  {
+                        "text": "All India Quota – Deemed\n Eligibility: All qualified, Application fees: 3000, Deposit: 2,50,000",
+                        "value": "B"
+                    },
+                  {
+                        "text": "Telangana State Quota - Convenor\nEligibility: MBBS from TS, 15% seats for MBBS from AP, Application fees: 4000",
+                        "value": "C"
+                    },
+                  {
+                        "text": "Telangana State Quota - Management\nEligibility: All qualified, Application fees: 6000",
+                        "value": "D"
+                    },
+                  {
+                        "text": "Andhra Pradesh State Quota - Convenor\nEligibility: MBBS from AP, 15% seats for MBBS from TS, Application fees: 4000",
+                        "value": "E"
+                    },
+                  {
+                        "text": "Andhra Pradesh State Quota - Management\nEligibility: All qualified, Application fees: 6000",
+                        "value": "F"
+                    }
+                ]
+                  }
+        
+      },
+      {
+            "stepIdentifier": {
+                "id": "#SLX1"
+            },
+            "type": "question",
+            "title": " Outcome",
+            "text": "Select the outcome or expected outcome after AIQ Round1",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Allotted a seat in AIQ R1",
+                        "value": "A"
+                    },
+                    {
+                        "text": "NOT Allotted a seat in AIQ R1",
+                        "value": "B"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX2"
+            },
+            "type": "question",
+            "title": " Allotment",
+            "text": "Select what you plan after AIQ Round1 allotment",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Satisfied with the allotment, will report to college, and not attend further",
+                        "value": "A"
+                    },
+                    {
+                        "text": "Satisfied with the allotment, will report to college, BUT will try for upgrade in AIQ only",
+                        "value": "B"
+                    },
+                  
+                    {
+                        "text": "Satisfied with the allotment, will report to college, BUT will try for upgrade in AIQ R2 and State Quota R1",
+                        "value": "C"
+                    },
+                  {
+                        "text": "Not satisfied with the allotment, will not report to allocated college, BUT will try for AIQ R2 and State Quota R1",
+                        "value": "D"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX3"
+            },
+            "type": "question",
+            "title": "Outcome",
+            "text": "Select the outcome or expected outcome after TS CQ Round1",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Allotted a seat in TS CQ R1",
+                        "value": "A"
+                    },
+                    {
+                        "text": "NOT Allotted a seat in TS CQ R1",
+                        "value": "B"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX4"
+            },
+            "type": "question",
+            "title": "Plan",
+            "text": "Select what you plan after Telangana CQ Round1 allotment",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Satisfied with the allotment, will report to college, and not attend further",
+                        "value": "A"
+                    },
+                    {
+                        "text": "Satisfied with the allotment, will report to college, BUT will try for AIQ R2 only",
+                        "value": "B"
+                    },
+                  {
+                        "text": "Satisfied with the allotment, will report to college, BUT will try for upgrade in AIQ R2 and TS CQ R2",
+                        "value": "C"
+                    },
+                  {
+                        "text": "NOT satisfied with the allotment, will NOT report to allocated college, BUT will try for AIQ R2 and TS CQ R2",
+                        "value": "D"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX5"
+            },
+            "type": "question",
+            "title": "Outcome",
+            "text": "Select the outcome or expected outcome after AIQ Round2",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Allotted a seat in AIQ R2",
+                        "value": "A"
+                    },
+                    {
+                        "text": "NOT Allotted a seat in AIQ R2",
+                        "value": "B"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX6"
+            },
+            "type": "question",
+            "title": "Plan",
+            "text": "Select what you plan after AIQ Round2 allotment",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Satisfied with the allotment, will report to college, and not attend further",
+                        "value": "A"
+                    },
+                    {
+                        "text": "NOT satisfied with the allotment, will take free exit, BUT will try for AIQ mop-up",
+                        "value": "B"
+                    }
+                  ,
+                    {
+                        "text": "NOT satisfied with the allotment, will take free exit, BUT will try for State Quota R2",
+                        "value": "C"
+                    }
+                  ,
+                    {
+                        "text": "NOT satisfied with the allotment, will take free exit, BUT will try for State Quota R2 and AIQ mop-up",
+                        "value": "D"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX7"
+            },
+            "type": "question",
+            "title": "Outcome",
+            "text": "Select the outcome or expected outcome after TS CQ Round2",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Allotted a seat in TS CQ R2",
+                        "value": "A"
+                    },
+                    {
+                        "text": "NOT Allotted a seat in TS CQ R2",
+                        "value": "B"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX8"
+            },
+            "type": "question",
+            "title": "Plan",
+            "text": "Select what you plan after Telangana CQ Round2 allotment",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Satisfied with the allotment, will report to college, and not attend further",
+                        "value": "A"
+                    },
+                    {
+                        "text": "NOT satisfied with the allotment, will NOT report to college, BUT will try in AIQ mop-up",
+                        "value": "B"
+                    },
+                  {
+                        "text": "Satisfied with the allotment, will report to college, BUT will try for upgrade in TS CQ mop-up",
+                        "value": "C"
+                    }
+                ]
+            }
+        }
+      ,
+      {
+            "stepIdentifier": {
+                "id": "#SLX9"
+            },
+            "type": "question",
+            "title": "Outcome",
+            "text": "Select the outcome or expected outcome after TS CQ mop-up",
+            "answerFormat": {
+                "type": "single",
+                "textChoices": [
+                    {
+                        "text": "Allotted a seat in TS CQ mop-up",
+                        "value": "A"
+                    },
+                    {
+                        "text": "NOT Allotted a seat in TS CQ mop-up",
+                        "value": "B"
+                    }
+                ]
+            }
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX10"
+            },
+            "type": "completion",
+            "text": "Congratulations on the seat allocation.\nYou are NOT eligible for further rounds of AIQ or TS CQ counseling",
+            "title": "Done!",
+            "buttonText": "Restart"
+        },
+      {
+            "stepIdentifier": {
+                "id": "#SLX11"
+            },
+            "type": "completion",
+            "text": "Hard luck on the seat allocation. You can still attend the  following round of counseling:\nAIQ Mop-up round\nTS CQ Stray vacancy round",
+            "title": "Done!",
+            "buttonText": "Restart"
+        },
+      {
+            "stepIdentifier": {
+                "id": "#ENDNORESULT"
+            },
+            "type": "completion",
+            "text": "Unknown. We still need to configure this path",
+            "title": "Done!",
+            "buttonText": "Restart"
+        }
+    ],
+  "rules": [
+    
+      {
+            "type": "direct",
+            "triggerStepIdentifier": {
+                "id": "#HP1"
+            },
+            "destinationStepIdentifier": {
+                "id": "#DF1"
+            }
+    
+    },
+    {
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#DF1"
+            },
+            "values": {
+                "A,C": "#SLX1",
+                "C": "#ENDNORESULT",
+                "D": "#ENDNORESULT",
+                "E": "#ENDNORESULT",
+                "F": "#ENDNORESULT"
+            }
+        },
+    {
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX1"
+            },
+            "values": {
+                "A": "#SLX2",
+                "B": "#ENDNORESULT"
+            }
+        },
+    {
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX2"
+            },
+            "values": {
+                "D": "#SLX3",
+                "A": "#ENDNORESULT",
+                "B": "#ENDNORESULT",
+                "C": "#ENDNORESULT"
+            }
+        }
+    ,{
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX3"
+            },
+            "values": {
+                "A": "#SLX4",
+                "B": "#ENDNORESULT"
+            }
+        }
+    ,{
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX4"
+            },
+            "values": {
+                "C": "#SLX5",
+                "A": "#ENDNORESULT",
+                "B": "#ENDNORESULT",
+                "D": "#ENDNORESULT"
+            }
+        }
+    ,{
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX5"
+            },
+            "values": {
+                "A": "#SLX6",
+                "B": "#ENDNORESULT"
+
+            }
+        }
+    ,{
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX6"
+            },
+            "values": {
+                "C": "#SLX7",
+                "A": "#ENDNORESULT",
+                "B": "#ENDNORESULT",
+                "D": "#ENDNORESULT"
+            }
+        }
+    ,{
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX7"
+            },
+            "values": {
+                "A": "#SLX8",
+                "B": "#ENDNORESULT"
+            }
+        }
+    ,{
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX8"
+            },
+            "values": {
+                "C": "#SLX9",
+                "A": "#ENDNORESULT",
+                "B": "#ENDNORESULT"
+
+            }
+        }
+    ,{
+            "type": "conditional",
+            "triggerStepIdentifier": {
+                "id": "#SLX9"
+            },
+            "values": {
+                "A": "#SLX10",
+                "B": "#SLX11"
+            }
+        }
+    ,{
+            "type": "direct",
+            "triggerStepIdentifier": {
+                "id": "#SLX10"
+            },
+            "destinationStepIdentifier": {
+                "id": "#HP1"
+            }
+    
+    }
+    ,{
+            "type": "direct",
+            "triggerStepIdentifier": {
+                "id": "#SLX11"
+            },
+            "destinationStepIdentifier": {
+                "id": "#HP1"
+            }
+    
+    }
+  ]
+}
